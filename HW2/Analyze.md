@@ -52,10 +52,10 @@ The amount of pictures in SJTU's page is larger than that of other two pages, th
 
 The current rendering process of SJTU homepage is to render a small part first, then wait, and then render every thing remaining at once, which will cause abnormal display for a period of time.
 
-<br><img src="./Pics/inloading.png" height = 300>      <img src="./Pics/finished.png" height = 300><br>
+<br><img src="./Pics/inloading.png" height = 200>      <img src="./Pics/finished.png" height = 200><br>
 The comparation between finished page and page in loading of SJTU.
 
-<br><img src="./Pics/inloading-BN.png" height = 300>      <img src="./Pics/finished-BN.png" height = 300><br>
+<br><img src="./Pics/inloading-BN.png" height = 200>      <img src="./Pics/finished-BN.png" height = 200><br>
 The comparation between finished page and page in loading of Baidu News.
 
 To optimize this, we can use the method of scattering the rendering. First render the elements in the first page that the user will see imediately, then render the remaining things.
