@@ -11,3 +11,4 @@ https://github.com/sebastianj1w/Wordladder-JAVA.git
 1. Compare with other website home page
 2. Carry out your optimization solution
 
+[Analyze.md](./HW2/Analyze.md "HW2-Analyze")
