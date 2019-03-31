@@ -36,7 +36,7 @@ By contrast, the `DCL` event on sjtu's page came the slowest. `DCL` means `DOMCo
 
 Besides, the `DCL` event in SJTU's page takes such a long time that devtool of chrome gives a waring.
 <br><img src="./Pics/warning-DCL-SJTU.png"><br>
-From the observation, we can see that the page of SJTU will load the page as a whole at the end, while the loading process of the other two pages is scattered, which is also a problem affecting performance.
+From the observation, we can see that **the page of SJTU will load the page as a whole at the end**, while **the loading process of the other two pages is scattered**, which is also a problem affecting performance.
 
 ### 1.3 Other information
 
@@ -46,16 +46,18 @@ According to observation, thu's page elements are the fewest, thus obtaining the
 
 ### 2.1 Optimize the loading time
 
-The amount of pictures in SJTU's page is larger than that of other two pages, this leads to a longer loading time, but the pictures are needed to show contents, if the layout and design concept can't be changed, then the loading process may can be accelerated by properly compressing images and optimizing server responses.
+The amount of pictures in SJTU's page is larger than that of other two pages, this leads to a longer loading time, but the pictures are needed to show contents, if the layout and design concept can't be changed, then the loading process may can be accelerated by **properly compressing images and optimizing server responses**.
 
 ### 2.2 Optimize the rendering time
 
 The current rendering process of SJTU homepage is to render a small part first, then wait, and then render every thing remaining at once, which will cause abnormal display for a period of time.
 
-<br><img src="./Pics/inloading.png" height = 300>      <img src="./Pics/finished.png" height = 300><br>
+<br><img src="./Pics/inloading.png" height = 200>      <img src="./Pics/finished.png" height = 200><br>
 The comparation between finished page and page in loading of SJTU.
 
-<br><img src="./Pics/inloading-BN.png" height = 300>      <img src="./Pics/finished-BN.png" height = 300><br>
-The comparation between finished page and page in loading of Baidu News.
+<br><img src="./Pics/inloading-BN.png" height = 200>      <img src="./Pics/finished-BN.png" height = 200><br>
+The comparation between finished page and page in loading of Baidu News. 
 
-To optimize this, we can use the method of scattering the rendering. First render the elements in the first page that the user will see imediately, then render the remaining things.
+We can see that the layout of the baidu's page doesn't change though it has not finished loading.
+
+To optimize this, we can use the method of **scattering the rendering**. First render the elements in the first page that the user will see imediately, then render the remaining things.
