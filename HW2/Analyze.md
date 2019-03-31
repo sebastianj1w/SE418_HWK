@@ -56,8 +56,14 @@ The current rendering process of SJTU homepage is to render a small part first, 
 The comparation between finished page and page in loading of SJTU.
 
 <br><img src="./Pics/inloading-BN.png" height = 200>      <img src="./Pics/finished-BN.png" height = 200><br>
+<<<<<<< HEAD
 The comparation between finished page and page in loading of Baidu News. 
 
 We can see that the layout of the baidu's page doesn't change though it has not finished loading.
 
 To optimize this, we can use the method of **scattering the rendering**. First render the elements in the first page that the user will see imediately, then render the remaining things.
+=======
+The comparation between finished page and page in loading of Baidu News.
+
+To optimize this, we can use the method of scattering the rendering. First render the elements in the first page that the user will see imediately, then render the remaining things.
+>>>>>>> 134575aa063203de01233ee4e0423535e949984c
