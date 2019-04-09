@@ -12,3 +12,8 @@ https://github.com/sebastianj1w/Wordladder-JAVA.git
 2. Carry out your optimization solution
 
 See: [Analyze.md](./HW2/Analyze.md "HW2-Analyze")
+
+## Homework 3 -- Convert WordLadder to a RESTful service
+
+It's stored in another repo:
+https://github.com/sebastianj1w/WordLadder-RESTful.git
