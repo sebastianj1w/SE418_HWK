@@ -1,5 +1,6 @@
 # SE418_HWK
 ***The newest part(task II) of homework is at the end of README.md in https://github.com/sebastianj1w/WordLadder-RESTful.git***
+
 A repo to store my hwk files for SE418
 
 ## Homework 1 -- Wordladder-JAVA
@@ -17,5 +18,6 @@ See: [Analyze.md](./HW2/Analyze.md "HW2-Analyze")
 ## Homework 3 -- Convert WordLadder to a RESTful service
 
 ***The newest part(task II) of homework is at the end of README.md in https://github.com/sebastianj1w/WordLadder-RESTful.git***
+
 It's stored in another repo:
 https://github.com/sebastianj1w/WordLadder-RESTful.git
