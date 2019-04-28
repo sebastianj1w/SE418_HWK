@@ -21,3 +21,5 @@ See: [Analyze.md](./HW2/Analyze.md "HW2-Analyze")
 
 It's stored in another repo:
 https://github.com/sebastianj1w/WordLadder-RESTful.git
+
+Docker image repo is here: https://hub.docker.com/r/sebastianj1w/wordladder-java
