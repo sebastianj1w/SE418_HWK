@@ -1,8 +1,6 @@
 # SE418_HWK
 
-***The newest part is ***<a href="#HW3">***HOMEWORK 3***</a>***, which is at the end of this file***
-
-<a href="#TASK3">***Task III is here***</a>
+The newest part is Task IV, which is in the `/task4` folder
 
 A repo to store my hwk files for SE418
 
@@ -12,8 +10,6 @@ It's stored in another repo:
 https://github.com/sebastianj1w/Wordladder-JAVA.git
 
 ## Homework 1 (part II and part III) -- Convert WordLadder to a RESTful service
-
-<p id="TASK3"></p>
 
 ***The newest part(task III) of homework is at the end of README.md in https://github.com/sebastianj1w/WordLadder-RESTful.git***
 
@@ -28,8 +24,6 @@ Docker image repo is here: https://hub.docker.com/r/sebastianj1w/wordladder-java
 2. Carry out your optimization solution
 
 See: [Analyze.md](./HW2/Analyze.md "HW2-Analyze")
-
-<p id="HW3"></p>
 
 ## Homework 3 -- Microservices
 
