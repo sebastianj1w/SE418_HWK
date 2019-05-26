@@ -1,7 +1,5 @@
-package multithread;
+package ContainerSimulation;
 
-import java.util.concurrent.LinkedBlockingDeque;
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Consumer implements Runnable {

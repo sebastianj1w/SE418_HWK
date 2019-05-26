@@ -1,6 +1,4 @@
-package multithread;
-
-import java.util.Random;
+package ContainerSimulation;
 
 public class Entry {
     private int id;

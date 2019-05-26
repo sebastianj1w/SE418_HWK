@@ -1,6 +1,5 @@
-package multithread;
+package ContainerSimulation;
 
-import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.atomic.AtomicInteger;
